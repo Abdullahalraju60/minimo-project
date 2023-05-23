@@ -1,0 +1,197 @@
+ /*common css start*/
+ body{
+   margin:0 ;
+   font-family: 'Playfair Display', serif;
+   font-size: 16px ;
+   font-weight:400 ;
+   color: #262626; 
+}
+/*common css end*/
+/*header start*/
+header{
+  padding: 40px 0;
+}
+.container{
+   margin: 0 auto;
+   width: 90%;
+   overflow: hidden;
+}
+.logo{
+   width: 15%;
+   float: left;
+}
+.logo img{
+   width: 100%;
+}
+.container2{
+   margin: 0 auto;
+   width: 80%;
+   overflow: hidden;}
+.menu{
+   width: 65%;
+   float: right;
+}
+.menu ul{
+  margin: 0;
+  float: right;
+   
+}
+.menu ul li{
+   list-style: none;
+   float: left;
+}
+.menu ul li a { 
+   margin:6px 50px;
+   text-decoration: none;
+   text-transform: uppercase;
+   display: inline-block;
+}
+.menu ul li:last-child a {
+   padding-right: 0;
+}
+.menu ul li a:hover {
+  color: brown;
+  border-bottom: 3px solid;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b-img{}
+.b-img img{
+  width: 100%;
+}
+/*banner end*/
+/*text start*/
+.ttext{
+
+}
+.btext{
+  padding: 50px 50px;
+  padding-bottom: 0;
+  }
+.btext h1{ 
+  font-size:30px ;
+}
+ 
+/*text end*/
+/*feature start*/
+.service{
+  margin-top: 70px;
+  padding-bottom:70px;
+}
+.s_service1{
+  width: 48%;
+  box-sizing: border-box;
+  float: left;
+}
+.s_service2{
+  width: 48%;
+  box-sizing: border-box;
+  float:right;
+}
+.s_img{}
+.s_img img{
+  width: 100%;
+  font-weight: 700;
+}
+.s_h2{
+  font-size: 20px ;
+}
+.s_p{
+  line-height: 25px;
+}
+/*feature end*/
+/*signup button start*/
+.news{
+  padding:70px 0 ;
+  background-color: #f0f0f0;
+}
+.signup{
+  text-align: center;
+}
+.title-sh1{
+  margin-top: 0;
+  margin-bottom: 70px;
+  color: #333333;
+}
+.s-from{
+  width: 400px;
+  margin:0 auto;
+  position: relative;
+  border-bottom: 2px solid;
+}
+.s-from input{
+  width: 380px;
+  height:45px ;
+  font-family: serif;
+  color: #262626;
+  font-size: 14px;
+  border: none;
+  border-bottom: 3px #000000;
+  background-color:transparent ;
+  padding-left:5px ;
+  padding-right: 15px;
+}
+.s-from input:focus{
+  outline: 0;
+}
+.s-from button{
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  top: 13px;
+  right: -6px;
+}
+.s-from button:focus{
+  outline: 0;
+}
+/*signup button end*/
+/*button start*/
+.load{
+   margin: 100px 0;
+   margin-bottom: 30px;
+   text-align: center;
+}
+.load button{
+   width: 165px ;
+   height: 60px;
+   border-radius: 10px;
+}
+.load button:hover{
+   background-color: #000000;
+   color: white;
+}
+/*button end*/
+/*footer start*/
+footer{
+ background-color: #f0f0f0;
+}
+.footer-text{
+ float: left;
+ margin-top: 31px;
+ float: left;
+}
+.footer-text a{
+ margin:17px 10px;
+ text-decoration: none;
+ color: #000000;
+}
+.footer-icon{ 
+ float: right;
+}
+.footer-icon ul{
+   display: flex;
+}
+.footer-icon ul li{
+   margin:17px 10px;
+   text-decoration: none;
+   text-transform: uppercase;
+   display: inline-block;
+}
+.footer-icon ul li a{
+   text-decoration: none;
+   color: #000000;
+}
+
+ /*footer end*/
